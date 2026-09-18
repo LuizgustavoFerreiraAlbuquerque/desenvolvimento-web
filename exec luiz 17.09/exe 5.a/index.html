@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados da Região Sul</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Lado esquerdo: Listbox -->
+        <div class="painel-esquerdo">
+            <select id="selectEstados" size="3">
+                <option value="0" selected>PR</option>
+                <option value="1">RS</option>
+                <option value="2">SC</option>
+            </select>
+        </div>
+
+        <!-- Meio: Botão -->
+        <div class="painel-meio">
+            <button id="btnDetalhes">Detalhes</button>
+        </div>
+
+        <!-- Lado direito: Informações -->
+        <div class="painel-direito">
+
+            <div class="card-info">
+                <strong>Capital</strong>
+                <div id="divCapital">-</div>
+            </div>
+
+            <div class="card-info">
+                <strong>Área</strong>
+                <div id="divArea">-</div>
+            </div>
+
+            <div class="card-info">
+                <strong>População</strong>
+                <div id="divPopulacao">-</div>
+            </div>
+
+            <div class="card-info">
+                <strong>Bandeira</strong>
+                <div id="divBandeira">-</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

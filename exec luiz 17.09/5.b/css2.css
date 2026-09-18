@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: #f4f4f9;
+
+    margin: 0;
+}
+
+
+/* Container principal */
+
+.container {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    background-color: #ffffff;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Lista de pacientes */
+
+.painel-esquerdo select {
+    width: 180px;
+    height: 180px;
+
+    padding: 10px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+}
+
+
+/* Botões */
+
+.painel-meio {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.painel-meio button {
+    padding: 12px 20px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    color: #ffffff;
+
+    background-color: #007bff;
+
+    border: none;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.painel-meio button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Cadastro */
+
+.cadastro {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    width: 180px;
+}
+
+.cadastro h3 {
+    margin: 0 0 5px 0;
+
+    color: #333;
+
+    font-size: 18px;
+}
+
+.cadastro input {
+    padding: 8px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+    font-size: 14px;
+}
+
+
+/* Painel de informações */
+
+.painel-direito {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    width: 250px;
+}
+
+
+/* Cards */
+
+.card-info {
+    border: 1px solid #ddd;
+
+    border-radius: 4px;
+
+    padding: 10px;
+
+    background-color: #fafafa;
+}
+
+.card-info strong {
+    display: block;
+
+    color: #555;
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 5px;
+}
+
+.card-info div {
+    font-size: 15px;
+
+    color: #333;
+}

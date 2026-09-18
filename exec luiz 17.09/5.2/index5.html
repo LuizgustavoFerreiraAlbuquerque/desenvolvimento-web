@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacientes - Sistema da Clínica</title>
+
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Lado Esquerdo - Listbox -->
+        <div class="painel-esquerdo">
+
+            <select id="selectPacientes" size="5">
+
+                <option value="0" selected>
+                    Ana Souza
+                </option>
+
+                <option value="1">
+                    Carlos Oliveira
+                </option>
+
+                <option value="2">
+                    Mariana Santos
+                </option>
+
+                <option value="3">
+                    João Pereira
+                </option>
+
+                <option value="4">
+                    Fernanda Lima
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- Meio - Botões -->
+        <div class="painel-meio">
+
+            <button id="btnDetalhes">
+                Detalhes
+            </button>
+
+            <button id="btnAdicionar">
+                Adicionar
+            </button>
+
+        </div>
+
+
+        <!-- Lado Direito - Quatro quadros -->
+        <div class="painel-direito">
+
+            <div class="card-info">
+
+                <strong>CPF</strong>
+
+                <div id="divCpf">
+                    -
+                </div>
+
+            </div>
+
+
+            <div class="card-info">
+
+                <strong>Idade</strong>
+
+                <div id="divIdade">
+                    -
+                </div>
+
+            </div>
+
+
+            <div class="card-info">
+
+                <strong>Telefone</strong>
+
+                <div id="divTelefone">
+                    -
+                </div>
+
+            </div>
+
+
+            <div class="card-info">
+
+                <strong>Última consulta</strong>
+
+                <div id="divConsulta">
+                    -
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         MINI ABA DE CADASTRO
+    ====================================== -->
+
+    <div id="modalCadastro" class="modal">
+
+        <div class="modal-conteudo">
+
+            <h2>Adicionar paciente</h2>
+
+
+            <input
+                type="text"
+                id="inputNome"
+                placeholder="Nome">
+
+
+            <input
+                type="text"
+                id="inputCpf"
+                placeholder="CPF">
+
+
+            <input
+                type="number"
+                id="inputIdade"
+                placeholder="Idade">
+
+
+            <input
+                type="text"
+                id="inputTelefone"
+                placeholder="Telefone">
+
+
+            <input
+                type="text"
+                id="inputConsulta"
+                placeholder="Última consulta">
+
+
+            <div class="botoes-modal">
+
+                <button id="btnSalvar">
+                    Salvar
+                </button>
+
+                <button id="btnFechar">
+                    Fechar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script5.js"></script>
+
+</body>
+</html>
